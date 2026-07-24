@@ -115,7 +115,7 @@ function ProductCard() {
           <div className="mt-auto pt-6">
             <Button
               size="lg"
-              onClick={() => window.openSallaSecretsCheckout?.()}
+              onClick={() => window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YOUR_BUTTON_ID", "_blank")}
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full h-14 text-base font-bold shadow-md shadow-primary/20 transition-all hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5"
             >
               <ShoppingBag className="w-5 h-5 ms-2" />
